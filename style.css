@@ -1,0 +1,276 @@
+.wrapper {
+  min-height: 100vh;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.788);
+  position: relative;
+  text-decoration: none;
+ 
+}
+.pegah{
+  padding: 100px;
+}
+section {
+  height:110vh;
+  
+  font-size:40px;
+  font-weight: 100;
+  background-color: #22A7F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+
+}
+
+section:nth-child(1) {
+  background: #ffffff;
+  
+  
+}
+
+section:nth-child(2) {
+  background:#a00500;
+  
+  
+}
+section:nth-child(3) {
+  background:#009E6F;
+}
+section:nth-child(4) {
+  background: #30a198;
+}
+section:nth-child(5) {
+  background: #723d86;
+}
+section:nth-child(6) {
+  background: #74973d;
+}
+section:nth-child(7) {
+  background:#cea922;
+}
+section:nth-child(8) {
+  background: #315c2f;
+}
+section:nth-child(9) {
+  background: #592F5B;
+}
+section:nth-child(10) {
+  background: #696866;
+}
+section:nth-child(11) {
+  background: #ac7f4c;
+}
+section:nth-child(12) {
+  background: #170e41;
+}
+section:nth-child(13) {
+  background:#3f7563;
+}
+section:nth-child(14) {
+  background:#9fff79;
+}
+
+.nav__wrapper {
+  position: fixed;
+  height:100%;
+  padding: 40px;
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  text-decoration: none;
+  top:50px;
+}
+.nav {
+  margin: 0 0 100px 30px;
+  text-decoration: none;
+}
+.nav__counter {
+  font-size: 20px;
+  transition: all 0.15s ease-out;
+  text-decoration: none;
+  line-height: 0.1em;
+  }
+
+.nav__title {
+  font-size: 27px;
+  font-weight: 300;
+  margin: 0 0 0.25em;
+  width: 3000px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: height 0.3s ease-out, opacity 0.2s ease-out;
+  text-decoration: none;
+  
+}
+.nav__body {
+  font-weight: 100;
+  font-size: 18px;
+  width: 300px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: height 0.3s ease-out, opacity 0.2s ease-out;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+  
+}
+
+.nav li {
+  position: relative;
+  transition: all 0.3s ease-out;
+
+  text-decoration: none;
+
+
+}
+.nav li:after {
+  content: "";
+  display:block;
+  border-left: 5px solid white;
+  border-top: 5px dotted white;
+  height: 400px;
+  width: 40px;
+  position: absolute;
+  left: -50px;
+  top: 0;
+  text-decoration: none;
+
+}
+
+.nav li a {
+  display: block;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.788);
+  transition: all 0.15s ease-out;
+  text-decoration: none;
+  line-height: 0.1em;
+
+}
+.nav li a:hover {
+  background-color: transparent;
+  padding-left: 1em;
+  text-decoration: none;
+}
+.nav li a:focus {
+  background-color: transparent;
+  text-decoration: none;
+}
+.nav li.active {
+  pointer-events:all;
+  padding-left: 0.1em;
+  text-decoration: none;
+  
+}
+.nav li.active:after {
+  width: 35px;
+  height: 400px;
+  text-decoration: none;
+  line-height: 1em;
+  top:20px
+}
+.nav li.active .nav__counter { /*12344*/
+  font-size: 48px;
+  text-decoration: none;
+  line-height: 1em;
+
+}
+.nav li.active .nav__title {
+  height: 30px;
+  opacity: 1;
+  overflow: visible;
+  text-decoration: none;
+  line-height: 1em;
+
+}
+.nav li.active .nav__body {
+  height: 040px;
+  opacity: 1;
+  overflow: visible;
+  text-decoration: none;
+  line-height: 1em;
+  padding-bottom: 1em;
+}
+
+span[id^="123"] {
+  color:tranparent;
+}
+
+
+h3[id^="123"] {
+  color:v;
+
+}
+p[id^="123"] {
+  color:white;
+  
+  
+}
+p[id^="in123"]{
+  color: white;
+  
+  padding-right: 100px;
+  font-size:25px;
+  
+  
+  
+  
+
+}
+
+  
+  
+
+
+.nav li[id^="123"]:after {
+  border-top: 0px dotted white!important;
+}
+.skill{
+  background-color: rgb(71, 255, 255);
+  height: 110vh;
+  
+}
+span[id^="skill"] {
+  color:tranparent;
+}
+
+
+h3[id^="skill"] {
+  color:v;
+
+}
+p[id^="skill"] {
+  color:white;
+
+}
+
+.nav li[id^="skill"]:after {
+  border-top: 5px solid white!important;
+}
+
+.peg{
+  padding-left: 350px;
+}
+.uni{
+ padding-left:792px;
+ 
+ 
+}
+.painting{
+  padding-left: 1062px;
+}
+strong{
+  font-size: 32px;
+  font-weight:bolder;
+  color: #ffffff;
+ 
+}
+body{
+  margin: 0px;
+}
+/*# sourceMappingURL=style.css.map */
+
