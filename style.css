@@ -1,4 +1,9 @@
+
+
+
+
 .wrapper {
+
   min-height: 100vh;
   font-family: 'Architects Daughter', cursive;
   font-weight: 400;
@@ -32,8 +37,8 @@ section:nth-child(1) {
 
 section:nth-child(2) {
   background:#a00500;
-  
-  
+ 
+
 }
 section:nth-child(3) {
   background:#009E6F;
@@ -273,4 +278,50 @@ body{
   margin: 0px;
 }
 /*# sourceMappingURL=style.css.map */
+@media only screen and (max-width: 600px) {
+  section {
+   
+    height:auto;
+    width:auto;
+  }
+  
 
+
+
+
+
+
+
+
+
+  
+.pegah{height: 500px;
+  padding-right: 250px;
+ padding-bottom: 30px;
+}
+.intr{
+ padding-left: 450px;
+ padding-bottom: 20px;
+}
+p[id^="in123"]{
+font-size: 15px;
+}
+
+.nav__wrapper{
+  height: 50%;
+}
+
+.painting{
+  padding-left:160px;
+ opacity: 20%;
+ z-index: auto;
+}
+
+section{display:grid;
+width: auto;}
+}
+a.nav__title{font-size: 20px;
+}
+strong{font-size: 20px;
+}
+h3.nav__title{font-size: 20px;}
