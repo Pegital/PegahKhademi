@@ -267,6 +267,7 @@ p[id^="skill"] {
 }
 .painting{
   padding-left: 1062px;
+  
 }
 strong{
   font-size: 32px;
@@ -280,14 +281,21 @@ body{
 /*# sourceMappingURL=style.css.map */
 @media only screen and (max-width: 600px) {
   section {
-   
+    display:grid;
     height:auto;
-    width:auto;
+   width: auto;
   }
   
 
 
 
+
+
+html {
+  width: auto;
+  background-color:#3f7563;
+  
+}
 
 
 
@@ -298,30 +306,59 @@ body{
 .pegah{height: 500px;
   padding-right: 250px;
  padding-bottom: 30px;
+width: 170px;
+height: 100%;
+ 
 }
 .intr{
  padding-left: 450px;
  padding-bottom: 20px;
 }
 p[id^="in123"]{
-font-size: 15px;
+font-size: 13px;
 }
 
 .nav__wrapper{
-  height: 50%;
+  height: 49%;
+  z-index: 99;
 }
 
 .painting{
   padding-left:160px;
  opacity: 20%;
- z-index: auto;
+ 
+ 
 }
 
-section{display:grid;
-width: auto;}
+a.nav__title{font-size: 15px;
+  margin: 0px 0px 0px 0px;
+  
 }
-a.nav__title{font-size: 20px;
+strong{font-size: 15px;
 }
-strong{font-size: 20px;
+h3.nav__title{font-size: 15px;}
+.nav__title{font-size: 40px;}
+
+.nav{
+  margin: 0px 0px 100px 9px;
 }
-h3.nav__title{font-size: 20px;}
+
+
+
+.flip-card{z-index: 9999;
+  padding-right: 20px;
+}
+
+.nav li a{
+
+line-height: 0.4em;
+}
+.nav li.active .nav__title {
+  height:20px;
+} 
+
+
+
+}
+
+
