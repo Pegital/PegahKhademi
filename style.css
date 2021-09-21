@@ -283,7 +283,7 @@ body{
   section {
     display:grid;
     height:auto;
-   width: 410px;
+   width: auto;
    padding-top: 500px;
   }
   
