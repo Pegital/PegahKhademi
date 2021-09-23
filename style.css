@@ -288,28 +288,36 @@ body{
   }
  
 html {
-  width: 430px;
+  width: auto;
   background-color:white;
-  max-width: 430px;
+  
 }
 
 
 
-
+.peg{
+  width:100px;
+  padding: 0px;
+ 
+}
 
 
   
 .pegah{height: 500px;
-  padding-right: 250px;
+ padding: 150px 0px  0px;
+ margin-left: 160px;
  padding-bottom: 1px;
  padding-top: 150px;
-width: 130px;
+width: 150px;
 height: 100%;
+
  
 }
 .intr{
- padding-left: 450px;
+ 
  padding-bottom: 20px;
+ padding-left: 160px;
+
  
 }
 p[id^="in123"]{
@@ -321,15 +329,16 @@ font-size: 13px;
   z-index: 99;
   position: fixed;
   height:90%;
-  padding: 40px;
+  padding:0px;
   display:flex;
   flex-flow: column nowrap;
   width: 370px;
+  margin-left: 30px;
   
 }
 
 .painting{
-  padding-left:160px;
+  padding-left:100px;
  opacity: 20%;
  
  
@@ -361,7 +370,7 @@ h3.nav__title{font-size: 10px;}
 line-height: 0.4em;
 }
 .nav li.active .nav__title {
-  height:30px;
+  height:10px;
 } 
 
 
