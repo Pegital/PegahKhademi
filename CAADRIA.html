@@ -26,7 +26,7 @@
         </div>
         
         
-    <div class="d2"><img src="images/caadria.gif" alt="2" id="n2">
+    <div class="d2"><img src="images/caadria.gif" alt="2" id="n2" class="n2">
         <br><a href="#n3" class="arrow"> &#x25BE;</a> </h1>
     <h1 class="cr">The strategy aims to find the solution with the highest structural performance under
         certain material limitations by removing or adding material elements step by step. 
@@ -41,7 +41,7 @@
 
 </body>
 <footer> 
-    <img src="images/caadria2.png" alt="3" id="n3">
+    <img src="images/caadria2.png" alt="3" id="n3" class="n3">
     <a href="index.html#section10" class="back"> Back to timeline</a>
     </footer>
     
@@ -105,4 +105,48 @@ font-size: 30px;
   .video{
       padding-top: 10px;
   }
+  @media only screen and (max-width: 600px) {
+  body {
+    display:grid;
+    height:auto;
+   width:auto;
+   
+  }
+
+h1{
+    font-size: 15px;
+    width: 300px;
+    padding-left: 20px;
+    
+}
+.d1{width: 300px;
+    display: unset;
+    padding-left: 0px;
+}
+.arrow{
+    font-size: 50px;
+}
+
+.n1{
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.n2{
+    width: 300px;
+}
+.d2{
+    display: unset;
+}
+.n3{
+    width: 300px;
+}
+footer{
+    display: grid;
+    width: 360px;
+}
+.cr{
+    padding-top: 10px;
+}
+}
 </style>

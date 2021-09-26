@@ -18,7 +18,7 @@
         <img src="images/space1.jpg" alt="n1" class="n1" id="n1">
         <h1> <br><br><br><br><br><br><br><br>
 
-            <a href="#n2" class="arrow"> &#x25BE;</a></h1>
+            <a href="#n2" class="arrow2"> &#x25BE;</a></h1>
         </div>
         
         
@@ -30,7 +30,7 @@
            <img src="images/space2.jpg" alt="n2" class="n2" id="n2">
            <h1> <br><br><br><br><br><br><br><br>
    
-               <a href="#n3" class="arrow"> &#x25BE;</a></h1>
+               <a href="#n3" class="arrow2"> &#x25BE;</a></h1>
     </div>
     <div class="d3">
         <h1> <br><br><br><br><br><br><br><br>
@@ -40,7 +40,7 @@
            <img src="images/space3.jpg" alt="n3" class="n3" id="n3">
            <h1> <br><br><br><br><br><br><br><br>
    
-               <a href="#n4" class="arrow"> &#x25BE;</a></h1>
+               <a href="#n4" class="arrow2"> &#x25BE;</a></h1>
     </div>
     <div class="d4">
         <h1> <br><br><br><br><br><br><br><br>
@@ -50,7 +50,7 @@
            <img src="images/space4.jpg" alt="n4" class="n4" id="n4">
            <h1> <br><br><br><br><br><br><br><br>
    
-               <a href="#n5" class="arrow"> &#x25BE;</a></h1>
+               <a href="#n5" class="arrow2"> &#x25BE;</a></h1>
     </div>
     <div class="d5">
         <h1> <br><br><br><br><br><br><br><br>
@@ -60,7 +60,7 @@
            <img src="images/space5.jpg" alt="n5" class="n5" id="n5">
            <h1> <br><br><br><br><br><br><br><br>
    
-               <a href="#n6" class="arrow"> &#x25BE;</a></h1>
+               <a href="#n6" class="arrow2"> &#x25BE;</a></h1>
     </div>
     <div class="d6">
         <h1> <br><br><br><br><br><br><br><br>
@@ -70,7 +70,7 @@
            <img src="images/space6.jpg" alt="n6" class="n6" id="n6">
            <h1> <br><br><br><br><br><br><br><br>
    
-               <a href="#n7" class="arrow"> &#x25BE;</a></h1>
+               <a href="#n7" class="arrow2"> &#x25BE;</a></h1>
     </div>
     <div class="d7">
         <h1> <br><br><br><br><br><br><br><br>
@@ -80,7 +80,7 @@
            <img src="images/space7.jpg" alt="n7" class="n7" id="n7">
            <h1> <br><br><br><br><br><br><br><br>
    
-               <a href="#n8" class="arrow"> &#x25BE;</a></h1>
+               <a href="#n8" class="arrow2"> &#x25BE;</a></h1>
     </div>
 
 
@@ -132,6 +132,10 @@ font-size: 30px;
     color: rgba(255, 255, 255, 0.384);
   }  
     
+  .arrow2{
+    font-size:200px;
+    color: rgba(255, 255, 255, 0.384);
+  }  
     .cr{padding-top: 110px;
         padding-left: 20px;
     }
@@ -168,5 +172,102 @@ font-size: 30px;
 .d7{
     padding-top:520px;
     display:-webkit-box;
-}   
+} 
+@media only screen and (max-width: 600px) {
+  body {
+    display:grid;
+    height:auto;
+   width:auto;
+  
+   
+  }
+
+div br {
+    display: none;
+}
+   
+.d1{width: 300px;
+    display: unset;
+    padding-left: 0px;
+    padding-top: 0px;
+    height: 300px;
+}
+.arrow{
+    font-size: 50px;
+    display: grid;
+}
+
+.n1{
+    padding-right: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 340px;
+}
+.n2 {
+    width: 340px;
+    padding-left: 20px;
+}
+.d2{
+    display: unset;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+.n3 {
+    width: 340px;
+    padding-left: 20px;
+}
+footer{
+    display: unset;
+    width: 360px;
+}
+
+
+.n4 {
+    width: 340px;
+    padding-left: 20px;
+} 
+
+.n5{
+    width: 340px;
+    padding-left: 20px;
+} 
+.n6 {
+    width: 340px;
+    padding-left: 20px;
+} 
+
+.n7 {
+    width: 340px;
+    padding-left: 20px;
+} 
+.d3{
+    display: unset;
+    height: 300px;
+    padding-top: 200px;
+    padding-left: 0px;
+}
+.d4{
+    display: unset;
+    height: 300px;
+    padding-top: 200px;
+    padding-left: 0px;}   
+.d5{
+    display: unset;
+    height: 300px;
+    padding-top: 100px;
+    padding-left: 0px;}
+.d6{
+    display: unset;
+    height: 300px;
+    padding-top: 100px;
+    padding-left: 0px;}
+.d7{
+    display: unset;
+    height: 300px;
+padding-top: 100px;
+padding-left: 0px;}
+.arrow2{
+    display: none;
+}
+}
 </style>

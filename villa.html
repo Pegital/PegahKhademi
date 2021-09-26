@@ -23,14 +23,14 @@
         </div>
         
         
-    <div class="d2"><img src="images/BOOK1.png" alt="2" id="n2">
+    <div class="d2"><img src="images/BOOK1.png" alt="2" id="n2" class="n2">
         <img src="images/BOOK2.png" alt="2" id="n3" class="n3">
         <a href="#d3" class="arrow"> &#x25BE;</a>
        
     
      
     </div>
-    <div class="d3"><img src="images/livingroom.png" alt="3" id="d3">
+    <div class="d3"><img src="images/livingroom.png" alt="3" id="d3" class="n3">
         <img src="images/planvilla.png" alt="2" id="n3" class="n2">
         <a href="index.html#section7" class="back"> Back to timeline</a>
        
@@ -104,4 +104,59 @@ font-size: 30px;
   .n2{
       padding-top: 150px;
   }
+
+
+  @media only screen and (max-width: 600px) {
+  body {
+    display:grid;
+    height:auto;
+   width:auto;
+   
+  }
+
+h1{
+    font-size: 15px;
+    width: 300px;
+    padding-left: 20px;
+    
+}
+.d1{width: 300px;
+    display: unset;
+    padding-left: 0px;
+}
+.arrow{
+    font-size: 50px;
+}
+
+.n1{
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 340px;
+}
+.n2{
+    width: 300px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+}
+.d2{
+    display: unset;
+    
+}
+.d3{
+    display: unset;
+    width: 360px;
+}
+.n3{
+    width: 300px;
+    padding-left: 10px;
+}
+footer{
+    display: grid;
+    width: 360px;
+}
+.back{
+    padding-left: 10px;
+}
+}
 </style>
