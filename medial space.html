@@ -22,7 +22,7 @@
         </div>
         
         
-    <div class="d2"><img src="images/medial.png" alt="2" id="n2">
+    <div class="d2"><img src="images/medial.png" alt="2" id="n2" class="n2">
     <h1 class="cr">In this methode for creating minimal surface <br>we actually design  the curves in order to
         <br> create the mesh surface in a bounding box.<br>
         we have two groups curve to make the surface <br> in middle of them in a space that we defines <br> as a box.
@@ -107,4 +107,51 @@ font-size: 30px;
   .process{
       padding-left:250px;
   }
+  @media only screen and (max-width: 600px) {
+  body {
+    display:grid;
+    height:auto;
+   width:auto;
+   
+  }
+
+h1{
+    font-size: 15px;
+    width: 300px;
+    padding-left: 20px;
+    
+}
+.d1{width: 300px;
+    display: unset;
+    padding-left: 0px;
+}
+.arrow{
+    font-size: 50px;
+}
+
+.n1{
+    padding-right: 0px;
+    padding-left: 100px;
+    padding-top: 10px;
+    height: 300px;
+}
+.n2{
+   height: 400px;
+   padding-left: 100px;
+}
+.d2{
+    display: unset;
+}
+.process{
+    width: 300px;
+    padding-left: 30px;
+}
+footer{
+    display: grid;
+    width: 360px;
+}
+.cr{
+    padding-top: 10px;
+}
+}
 </style>

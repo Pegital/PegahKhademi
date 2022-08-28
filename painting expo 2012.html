@@ -24,7 +24,7 @@
     </div>
 
 
-    <div class="d2"><img src="images/n2.jpg" alt="2" id="n2">
+    <div class="d2"><img src="images/n2.jpg" alt="2" id="n2" class="n2">
         <h1 class="cr">This certification <br> proves <br> my participation<br> in galley</h1>
         <img src="images/p1-o.png" alt="c" class="cr">
     </div>
@@ -88,5 +88,65 @@
         padding-top: 450px;
         padding-left: 200px;
 
+    }
+
+    @media only screen and (max-width: 600px) {
+        body {
+            display: grid;
+            height: auto;
+            width: auto;
+
+        }
+
+        h1 {
+            font-size: 15px;
+            width: 300px;
+            padding-left: 20px;
+            padding-top: 20px;
+
+        }
+
+        .d1 {
+            width: 300px;
+            display: unset;
+            padding-left: 0px;
+            padding-top: 20px;
+        }
+
+        .arrow {
+            font-size: 50px;
+        }
+
+        .n1 {
+            padding-right: 0px;
+            padding-left: 10px;
+            padding-top: 10px;
+            height: 400px;
+        }
+
+        .n2 {
+            width: 300px;
+        }
+
+        .d2 {
+            display: unset;
+            padding-top: 200px;
+        }
+
+        .cr {
+            width: 200px;
+        }
+
+        footer {
+            display: unset;
+            padding-top: 600px;
+            padding-left: 10px;
+
+        }
+
+        .back {
+
+            padding-left: 10px;
+        }
     }
 </style>

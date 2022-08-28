@@ -8,7 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-    <title>Voxel growth</title>
+    <title>Patteration</title>
 </head>
 <body><div class="d1">
     <h1>Patternicture was a competition which it's atittude is new way of representing patternss
@@ -19,7 +19,7 @@
         </div>
         
         
-    <div class="d2"><img src="images/patt2.png" alt="2" id="n2">
+    <div class="d2"><img src="images/patt2.png" alt="2" id="n2" class="n2">
     <h1 class="cr">The purpose of this project is making interaction between <br> pattern and human
         the pattern is inspired by Shamseh <br> and Chalipa, traditional Iranian patterns of tiling.<br>
         the intraction happens among Arduino and altrasound <br>sensor and audience's hand and the result would 
@@ -114,4 +114,51 @@ font-size: 30px;
       font-size:200px;
     color: rgba(255, 255, 255, 0.384);
   }
+
+  @media only screen and (max-width: 600px) {
+  body {
+    display:grid;
+    height:auto;
+   width:auto;
+   
+  }
+
+h1{
+    font-size: 15px;
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 30px;
+    
+}
+.d1{width: 300px;
+    display: unset;
+    padding-left: 0px;
+}
+.arrow{
+    font-size: 50px;
+}
+
+.n1{
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.n2{
+    width: 300px;
+    padding-left: 10px;
+}
+.d2{
+    display: unset;
+}
+.video1{
+    width: 300px;
+}
+footer{
+    display: grid;
+    width: 360px;
+}
+.cr{
+    padding-top: 10px;
+}
+}
 </style>
