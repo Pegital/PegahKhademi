@@ -80,11 +80,15 @@ section:nth-child(12) {
 }
 
 section:nth-child(13) {
-  background: #3f7563;
+  background: #2828c7;
 }
 
 section:nth-child(14) {
-  background: #ffffff;
+  background: #6c4955;
+}
+
+section:nth-child(15) {
+  background: #6c9e61;
 }
 
 .nav__wrapper {
