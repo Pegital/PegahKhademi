@@ -44,27 +44,27 @@ section:nth-child(3) {
 }
 
 section:nth-child(4) {
-  background: #30a198;
-}
-
-section:nth-child(5) {
-  background: #723d86;
-}
-
-section:nth-child(6) {
-  background: #74973d;
-}
-
-section:nth-child(7) {
   background: #cea922;
 }
 
-section:nth-child(8) {
+section:nth-child(5) {
   background: #315c2f;
 }
 
-section:nth-child(9) {
+section:nth-child(6) {
   background: #592F5B;
+}
+
+section:nth-child(7) {
+  background: #696866;
+}
+
+section:nth-child(8) {
+  background: #ac7f4c;
+}
+
+section:nth-child(9) {
+  background: #170e41;
 }
 
 section:nth-child(10) {
@@ -72,19 +72,19 @@ section:nth-child(10) {
 }
 
 section:nth-child(11) {
-  background: #ac7f4c;
+  background: #6c4955;
 }
 
 section:nth-child(12) {
-  background: #170e41;
+  background: #6c9e61;
 }
 
 section:nth-child(13) {
-  background: #2828c7;
+  background: #619b77;
 }
 
 section:nth-child(14) {
-  background: #6c4955;
+  background: #49546c;
 }
 
 section:nth-child(15) {
